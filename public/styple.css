@@ -1,0 +1,151 @@
+
+body{
+	background-color:#C70039 ;
+	color:black ;
+	font-family: arial, helvetica ;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1.6em;
+    margin: 0;
+}
+#main-header{
+	background-color: #FF901B;
+	color: white;
+	padding: 5px;
+}
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.button{
+	background-color: black;
+	color: blue;
+	padding: 10px 15px;
+	border: none;
+	width: 10%;
+}
+
+.navbar{
+	background-color: #940376;
+}
+
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo a{
+	font-size: 40px;
+	color: white;
+	margin: 10px;
+}
+nav li{
+	list-style:none;
+	display: inline-block;
+	padding-inline: 5px;
+}
+nav li a{
+	color: white;
+	font-size: 18px;
+	
+}
+
+nav button{
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.button:hover{
+	background-color: red;
+	color: white;
+}
+
+.box-1{
+	background-color:#39E89F  ;
+	color:black;
+    border: 5px #CECC29 ;
+    border-radius: 10px;
+    padding:50px ;
+    margin: 10px;
+    float: left;
+    width: 35%;
+
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	word-spacing: 0.3em;
+	
+
+}
+.clr{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: darkred;
+
+}
+a:visited{
+	color: black;
+}
+.box-2{
+	background-color:#39E89F  ;
+	color:black;
+    border: 5px #CECC29 ;
+    border-radius: 10px;
+    padding:50px ;
+    margin: 10px;
+    float: right;
+    width: 35%;
+
+}
+
+.categories{
+	background-color: #39E89F;
+	border: 4px blue solid;
+	padding:10px;
+	border-radius: 15px;
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul{
+	padding: 2;
+	list-style-type: hebrew;
+}
+
+.categories li{
+	padding: 8px;
+	border: groove 1px ;
+}
+.my-form{
+	padding: 20px;
+}
+
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea , .my-form[type="email"]{
+	padding: 9px;
+	width: 100%;
+
+}
+
+.block{
+	float : left;
+	width:33.333%;
+}
+
+.my-list li:first-child{
+	background-color: black;
+}
